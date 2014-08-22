@@ -1,7 +1,7 @@
 while True:
 	Firstname=raw_input('Enter your firstname : ')
 	Lastname=raw_input('Enter your lastname : ')
-	dict={'Fname':Firstname, 'lname':Lastname}
+	dict={'First name':Firstname, ' Last name':Lastname}
 	if Firstname == "" and Lastname == "":
 		break
 	print dict
